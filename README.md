@@ -1,30 +1,29 @@
-# 7 Billion Humans Solutions
+# 70亿人的解决方案
 
-Community solutions for the game [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/).
+游戏社区解决方案[70亿人类](https://store.steampowered.com/app/792100/7_Billion_Humans/)。
 
-The aim is to have all the solutions for the best speed and/or size seen on the [OCD+ challenge stat page](https://tomorrowcorporation.com/7billionhumansStats/). Please feel free to submit any improvements you find.
+目标是在[OCD+挑战统计页面](https://tomorrowcorporation.com/7billionhumansStats/)上看到最佳速度和/或尺寸的所有解决方案。请随时提交您发现的任何改进。
 
-## Submissions
+## 提交
 
-Either open a [pull request](https://help.github.com/articles/about-pull-requests/) or post on the [Steam thread](https://steamcommunity.com/app/792100/discussions/0/1739968490573286109/).
+要么打开[pull request（拉取请求）](https://help.github.com/articles/about-pull-requests/)，要么在[Steam thread](https://steamcommunity.com/app/792100/discussions/0/1739968490573286109/)上发帖。
+ 
+###### 解决方案文件夹
 
-###### Solutions Folders
+成功率超过99%的解决方案放在 **Solutions99+**, 中，如果解决方案比 **Soultions99+** 中的解决方案更好，但成功率低于99%且大于或等于50%，则放在 **Solutions50+** 中
 
-Solutions that are more than 99% successful are put in **Solutions99+**, if a solution is better than the one found in ***Soultions99+*** but is less than 99% and greater than or equal to 50% successful it goes in **Solutions50+**
+###### 文件命名规则
 
-###### File Naming Rule
+年份 `NUM(关卡)` - `NAME(关卡名)` (`TYPE(标签)`).txt
 
-Year `NUM` - `NAME` (`TYPE`).txt
+`NUM(关卡)` = 02-68
 
-`NUM` = 02-68
+`NAME(关卡名)` = 拼图的名称
 
-`NAME` = The puzzle's name
+`TYPE(标签)` = 速度、大小或两者都有
+运行 [check_names.py](https://github.com/hingston/7-billion-humans-solutions/blob/master/check_names.py) 确认。
 
-`TYPE` = Speed, Size or Both
-
-Run [check_names.py](https://github.com/hingston/7-billion-humans-solutions/blob/master/check_names.py) to confirm.
-
-## Contributors
+## 贡献者
 
 ###### +99% Solutions
 
